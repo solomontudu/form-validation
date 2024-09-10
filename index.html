@@ -15,33 +15,72 @@
         <!-- full name -->
         <div class="form-group">
           <label for="name">Full Name</label>
-          <input type="text" id="name" placeholder="Ful Name" required minlength="3" maxlength="25"/>
+          <input
+            type="text"
+            id="name"
+            placeholder="Ful Name"
+            name="name"
+            required
+            minlength="3"
+            maxlength="25"
+          />
         </div>
         <!-- phone number -->
         <div class="form-group">
           <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" placeholder="9xxxxxx1245" required pattern="[0-9]{10}"/>
+          <input
+            type="tel"
+            id="phone"
+            placeholder="9xxxxxx1245"
+            name="phone"
+            required
+            pattern="[0-9]{10}"
+          />
         </div>
         <!-- email -->
         <div class="form-group">
           <label for="email">Email Address</label>
-          <input type="email" id="email" placeholder="email@address.com" required/>
+          <input
+            type="email"
+            id="email"
+            placeholder="email@address.com"
+            name="email"
+            required
+          />
         </div>
         <!-- website URL -->
         <div class="form-group">
           <label for="website">Website Address</label>
-          <input type="url" id="website" placeholder="http://solomontudu.in" required/>
+          <input
+            type="url"
+            id="website"
+            placeholder="http://solomontudu.in"
+            name="website"
+            required
+          />
         </div>
         <!-- password -->
         <div class="form-group">
           <label for="password1">Password</label>
-          <input type="password" id="password1" placeholder="Create Password (Min. 8 character)" 
-          title="Please include at least 1 uppercase character, 1 lowercase character and one number" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"/>
+          <input
+            type="password"
+            id="password1"
+            placeholder="Create Password (Min. 8 character)"
+            title="Please include at least 1 uppercase character, 1 lowercase character and one number"
+            pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+          />
         </div>
         <!-- confirm password -->
         <div class="form-group">
           <label for="password2">Confirm Password </label>
-          <input type="password" id="password2" placeholder="Create Password" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"/>
+          <input
+            type="password"
+            id="password2"
+            placeholder="Create Password"
+            name="password"
+            required
+            pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+          />
         </div>
         <!-- submit  -->
         <button type="submit">Register</button>
